@@ -1,5 +1,6 @@
 # Gran Turismo: Reloaded
 Inspired by the mobile game Jetpack Joyride, Gran Touismo: Reloaded is a shooter racing game where the play takes control of a vehicle in an endless runner. 
+
 ![](demo.gif)
 
 ## How To Run The Game:
@@ -13,9 +14,7 @@ Note: Enemies can shoot over obstacles but the player cannot
 
 ### Controls
 
-Directional movement: W A S D
-
-Jump: K
-
-Shoot: L
+**Directional movement:** W, A, S, D
+**Jump:** K
+**Shoot:** L
 
