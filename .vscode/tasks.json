@@ -1,0 +1,44 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build run",
+            "type": "shell",
+            "command": "C:/Users/Josep/Desktop/CS2261/visualboyadvance-m.exe ./Project.gba",
+            /*
+            * add the visualboyadvance-m.app exact path to the above line,
+            * in between "open" and "./Project.gba"!
+            * if you're a windows User, remove the "open" command and just put
+            * your visualboyadvance-m.exe exact path in the line above
+            * before "./Project.gba"!
+            * Make sure there's a space between your emulator path and "./Project.gba"!
+            */
+            "problemMatcher": [],
+            "dependsOn": ["build"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "docker run --rm -it -v \"${PWD}:/gba\" aaaronic/gba-compiler:1.2",
+            "problemMatcher": []
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "docker run --rm -it -v \"${PWD}:/gba\" aaaronic/gba-compiler:1.2 bash -c 'cd /gba && make clean'",
+            "problemMatcher": []
+        },
+        {
+            "label": "audio",
+            "type": "shell",
+            "command": "docker run --rm -it -v \"${PWD}:/gba\" aaaronic/gba-compiler:1.2 bash -c 'cd /gba && make audio'",
+            "problemMatcher": []
+        }
+    ]
+  }
