@@ -13,7 +13,7 @@ There will be incoming obstacles which the player must jump over as well as enem
 Note: Enemies can shoot over obstacles but the player cannot
 
 ### Controls  
-Directional movement: W A S D  
-Jump: K  
-Shoot: L
+**Directional movement:** W,A,S,D
+**Jump:** K  
+**Shoot:** L
 
