@@ -12,9 +12,8 @@ Inspired by the mobile game Jetpack Joyride, Gran Touismo: Reloaded is a shooter
 There will be incoming obstacles which the player must jump over as well as enemies that spawn and shoot which the player can destroy by firing back. Earn points for destroying enemies and surviving. 
 Note: Enemies can shoot over obstacles but the player cannot
 
-### Controls
-
-**Directional movement:** W, A, S, D
-**Jump:** K
-**Shoot:** L
+### Controls  
+Directional movement: W A S D  
+Jump: K  
+Shoot: L
 
