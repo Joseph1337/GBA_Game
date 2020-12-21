@@ -1,8 +1,5 @@
 PRODUCT_NAME       = Project
 
-# You probably won't need to touch anything below here!!!
-# The one exception is the cleanup stuff.
-
 SOURCES            = $(wildcard *.c)
 ASMSOURCES         = $(wildcard *.asm)
 AUDIOSOURCES       = $(wildcard *.wav)
