@@ -1,5 +1,5 @@
 # Gran Turismo: Reloaded
-Inspired by the mobile game Jetpack Joyride, Gran Touismo: Reloaded is a shooter racing game where the play takes control of a vehicle in an endless runner. 
+Inspired by the mobile game Jetpack Joyride, **Gran Touismo: Reloaded** is a shooter racing game where the player takes control of a vehicle in an endless runner. 
 
 ![](demo.gif)
 
